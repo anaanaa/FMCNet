@@ -9,9 +9,9 @@ Network for Efficient Vertebrae Segmentation</h1>
 
 
   <p align="center">
-    <a href="https://github.com/goupup-ai/miccai25" rel="external nofollow noopener" target="_blank"><strong>Jian Shi</strong></a>
+    <a href="https://scholar.google.com/citations?hl=zh-CN&user=Wh3AOrYAAAAJ" rel="external nofollow noopener" target="_blank"><strong>Jian Shi</strong></a>
     ·
-    <a href="https://github.com/goupup-ai/miccai25" rel="external nofollow noopener" target="_blank"><strong>Tianqi You</strong></a>
+    <a target="_blank"><strong>Tianqi You</strong></a>
     ·
     <a href="https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN" rel="external nofollow noopener" target="_blank"><strong>Pingping Zhang*</strong></a>
     ·
