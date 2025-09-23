@@ -19,7 +19,7 @@ Network for Efficient Vertebrae Segmentation</h1>
     ·
     <a href="https://scholar.google.com/citations?user=rgtOrCMAAAAJ&hl=zh-CN&oi=sra" rel="external nofollow noopener" target="_blank"><strong>Rui Xu</strong></a>
     ·
-    <a target="_blank"><strong>Haojie Li</strong></a>
+    <a href="https://scholar.google.com/citations?user=pMnlgVMAAAAJ=zh-CN&oi=sra" rel="external nofollow noopener" target="_blank"><strong>Haojie Li</strong></a>
   </p>
 <p align="center">
     <a href="https://arxiv.org/pdf/2506.23086" rel="external nofollow noopener" target="_blank">MICCAI 2025 Paper</a>
