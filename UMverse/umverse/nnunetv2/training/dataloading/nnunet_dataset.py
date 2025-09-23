@@ -114,7 +114,7 @@ class nnUNetDataset(object):
 if __name__ == '__main__':
     # this is a mini test. Todo: We can move this to tests in the future (requires simulated dataset)
 
-    folder = '/user94/shijian/U-Mamba/data/nnUNet_preprocessed/Dataset779_Test/nnUNetPlans_3d_lowres'
+    folder = '../data/nnUNet_preprocessed/Dataset/nnUNetPlans_3d_lowres'
     ds = nnUNetDataset(folder, num_images_properties_loading_threshold=0) # this should not load the properties!
     # this SHOULD HAVE the properties
     ks = ds['1.3.6.1.4.1.9328.50.4'].keys()
