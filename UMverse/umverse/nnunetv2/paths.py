@@ -19,30 +19,20 @@ Please make sure your data is organized as follows:
 
 data/
 ├── nnUNet_raw/
-│   ├── Dataset701_AbdomenCT/
+│   ├── Dataset717_Verse/
 │   │   ├── imagesTr
-│   │   │   ├── FLARE22_Tr_0001_0000.nii.gz
-│   │   │   ├── FLARE22_Tr_0002_0000.nii.gz
+│   │   │   ├── sub-verse060.nii.gz
+│   │   │   ├── sub-verse034.nii.gz
 │   │   │   ├── ...
 │   │   ├── labelsTr
-│   │   │   ├── FLARE22_Tr_0001.nii.gz
-│   │   │   ├── FLARE22_Tr_0002.nii.gz
+│   │   │   ├── sub-verse060_seg.nii.gz
+│   │   │   ├── sub-verse034_seg.nii.gz
 │   │   │   ├── ...
 │   │   ├── dataset.json
-│   ├── Dataset702_AbdomenMR/
-│   │   ├── imagesTr
-│   │   │   ├── amos_0507_0000.nii.gz
-│   │   │   ├── amos_0508_0000.nii.gz
-│   │   │   ├── ...
-│   │   ├── labelsTr
-│   │   │   ├── amos_0507.nii.gz
-│   │   │   ├── amos_0508.nii.gz
-│   │   │   ├── ...
-│   │   ├── dataset.json
-│   ├── ...
+....
 """
 #base = join(os.sep.join(__file__.split(os.sep)[:-3]), 'data')
-base = '/13258025329/shijian/UMverse/data'
+base = '.../UMverse/data'
 # or you can set your own path, e.g., base = '/home/user_name/Documents/U-Mamba/data'
 nnUNet_raw = join(base, 'nnUNet_raw') # os.environ.get('nnUNet_raw')
 nnUNet_preprocessed = join(base, 'nnUNet_preprocessed') # os.environ.get('nnUNet_preprocessed')
