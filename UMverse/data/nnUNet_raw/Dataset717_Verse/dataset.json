@@ -1,0 +1,37 @@
+{
+    "channel_names": {
+        "0": "CT"
+    },
+    "labels": {
+        "background": 0,
+        "C1": 1,
+        "C2": 2,
+        "C3": 3,
+        "C4": 4,
+        "C5": 5,
+        "C6": 6,
+        "C7": 7,
+        "T1": 8,
+        "T2": 9,
+        "T3": 10,
+        "T4": 11,
+        "T5": 12,
+        "T6": 13,
+        "T7": 14,
+        "T8": 15,
+        "T9": 16,
+        "T10": 17,
+        "T11": 18,
+        "T12": 19,
+        "L1": 20,
+        "L2": 21,
+        "L3": 22,
+        "L4": 23,
+        "L5": 24,
+        "L6": 25
+    },
+    "numTraining": 120,
+    "file_ending": ".nii.gz",
+    "overwrite_image_reader_writer": "SimpleITKIO",
+    "name": "Dataset717_Verse_tv"
+}
