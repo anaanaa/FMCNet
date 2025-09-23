@@ -204,13 +204,7 @@ def run_training(dataset_name_or_id: Union[str, int],
             nnunet_trainer.run_training()
 
         if val_with_best:
-            # nnunet_trainer.load_checkpoint(join(nnunet_trainer.output_folder, 'checkpoint_best.pth'))
-            # nnunet_trainer.load_checkpoint(join(nnunet_trainer.output_folder, 'checkpoint_best_mean_last_six.pth'))
-            # nnunet_trainer.load_checkpoint(join(nnunet_trainer.output_folder, 'checkpoint_best_mean_middle_twelve.pth'))
-            nnunet_trainer.load_checkpoint(join(nnunet_trainer.output_folder, 'checkpoint_best_mean_first_seven.pth'))
-            # nnunet_trainer.load_checkpoint(join(nnunet_trainer.output_folder, 'checkpoint_best_group_10_epoch.pth'))
-            # nunet_trainer.load_checkpoint(join(nnunet_trainer.output_folder, '1_checkpoint_best_group_11_epoch.pth'))
-            # nunet_trainer.load_checkpoint(join(nnunet_trainer.output_folder, '1_checkpoint_best_group_10_epoch.pth'))
+            nnunet_trainer.load_checkpoint(join(nnunet_trainer.output_folder, 'checkpoint.pth'))
         nnunet_trainer.perform_actual_validation(export_validation_probabilities)
 
 
