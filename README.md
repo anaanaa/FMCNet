@@ -84,13 +84,6 @@ To alleviate these issues, we introduce a Frequency-enhanced Multi-granularity C
 </p>
 
 ---
-### Ablation Studies [LUMBAR]
-
-<p align="center">
-    <img src="assets/Ablation.png" alt="Ablation Results" style="width:100%;">
-</p>
-
----
 ## **Visualizations**
 
 ### Qualitative results with different methods
