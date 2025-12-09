@@ -27,11 +27,11 @@ class DC_and_CE_loss(nn.Module):
         self.weight_bd = weight_bd
         self.ignore_label = ignore_label
 
-        #ce_weight = [0.25] + [0.75] * 7 + [1.25] * 12 + [0.75] * 6  # 背景类的权重为0.25，其余为0.75
-        ce_weight = [0.5] + [1.0] * 5
+        ce_weight = [0.25] + [0.75] * 7 + [1.25] * 12 + [0.75] * 6  # 背景类的权重为0.25，其余为0.75
+        #ce_weight = [0.5] + [1.0] * 5
         ce_weight = torch.tensor(ce_weight, device='cuda:0')
-        #dice_weight = [0.25] + [0.75] * 7 + [1.25] * 12 + [0.75] * 6  # 背景类的权重为0.25，其余为0.75
-        dice_weight = [0.5] + [1.0] * 5
+        dice_weight = [0.25] + [0.75] * 7 + [1.25] * 12 + [0.75] * 6  # 背景类的权重为0.25，其余为0.75
+        #dice_weight = [0.5] + [1.0] * 5
         dice_weight = torch.tensor(dice_weight, device='cuda:0')
 
         self.ce = RobustCrossEntropyLoss(weight=ce_weight, **ce_kwargs)
